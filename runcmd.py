@@ -15,7 +15,7 @@ class SingleSwitchTopo(Topo):
         switch = self.addSwitch('s1')
         # Python's range(N) generates 0..N-1
         for h in range(n):
-            host = self.addHost('h%s' % (h + 1), cpu=.5/n)
+            host = self.addHost('h%s' % (h + 1))
             self.addLink(host, switch,
                     bw=10, delay='5ms', loss=10, max_queue_size=1000, use_htb=True)
 
@@ -25,14 +25,18 @@ def simpleTest():
     topo = SingleSwitchTopo(n=4)
     net = Mininet(topo, host=CPULimitedHost, link=TCLink)
     net.start()
-    print "Dumping host connections"
-    dumpNodeConnections(net.hosts)
-    print "Testing network connectivity"
-    net.pingAll()
-    print "Testing bandwidth between h1 and h4"
-    h1, h4 = net.get('h1', 'h4')
-    net.iperf((h1, h4))
-    net.stop()
+    print "Starting test..."
+    h1.cmd('while true; do date; sleep 1; done > /tmp/date.out &')
+    sleep(10)
+    print "Stopping test"
+    h1.cmd('kill %while')
+    print "Reading output"
+    f = open('/tmp/date.out')
+    lineno = 1
+    for line in f.readlines():
+        print "%d: %s" % ( lineno, line.strip() )
+        lineno += 1
+    f.close()
 
 if __name__ == '__main__':
 # Tell mininet to print useful information

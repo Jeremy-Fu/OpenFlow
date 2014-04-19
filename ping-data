@@ -1,0 +1,63 @@
+H1 ping H2:	10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+H1 ping H3:	10 packets transmitted, 10 received, 0% packet loss, time 9019ms
+H1 ping H4:	10 packets transmitted, 9 received, 10% packet loss, time 9015ms
+H1 ping H5:	10 packets transmitted, 9 received, 10% packet loss, time 9010ms
+H1 ping H6:	10 packets transmitted, 10 received, 0% packet loss, time 9017ms
+H1 ping H7:	10 packets transmitted, 9 received, 10% packet loss, time 9014ms
+H1 ping H8:	10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+
+H2 ping H1:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H2 ping H3:	10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+H2 ping H4:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H2 ping H5:	10 packets transmitted, 9 received, 10% packet loss, time 9022ms
+H2 ping H6:	10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+H2 ping H7:	10 packets transmitted, 7 received, 30% packet loss, time 9031ms
+H2 ping H8:	10 packets transmitted, 8 received, 20% packet loss, time 9017ms
+
+H3 ping H1:	10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+H3 ping H2:	10 packets transmitted, 8 received, 20% packet loss, time 9024ms
+H3 ping H4:	10 packets transmitted, 7 received, 30% packet loss, time 9038ms
+H3 ping H5:	10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+H3 ping H6:	10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+H3 ping H7:	10 packets transmitted, 7 received, 30% packet loss, time 9022ms
+H3 ping H8:	10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+
+H4 ping H1:	10 packets transmitted, 9 received, 10% packet loss, time 9020ms
+H4 ping H2:	10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+H4 ping H3:	10 packets transmitted, 7 received, 30% packet loss, time 9021ms
+H4 ping H5:	10 packets transmitted, 10 received, 0% packet loss, time 8998ms
+H4 ping H6:	10 packets transmitted, 9 received, 10% packet loss, time 9013ms
+H4 ping H7:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H4 ping H8:	10 packets transmitted, 8 received, 20% packet loss, time 9014ms
+
+H5 ping H1:	10 packets transmitted, 9 received, 10% packet loss, time 9021ms
+H5 ping H2:	10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+H5 ping H3:	10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+H5 ping H4:	10 packets transmitted, 10 received, 0% packet loss, time 9004ms
+H5 ping H6:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H5 ping H7:	10 packets transmitted, 8 received, 20% packet loss, time 9026ms
+H5 ping H8:	10 packets transmitted, 9 received, 10% packet loss, time 9017ms
+
+H6 ping H1:	10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+H6 ping H2:	10 packets transmitted, 8 received, 20% packet loss, time 9021ms
+H6 ping H3:	10 packets transmitted, 9 received, 10% packet loss, time 9029ms
+H6 ping H4:	10 packets transmitted, 6 received, 40% packet loss, time 9010ms
+H6 ping H5:	10 packets transmitted, 8 received, 20% packet loss, time 9015ms
+H6 ping H7:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H6 ping H8:	10 packets transmitted, 8 received, 20% packet loss, time 9021ms
+
+H7 ping H1:	10 packets transmitted, 8 received, 20% packet loss, time 9446ms
+H7 ping H2:	10 packets transmitted, 10 received, 0% packet loss, time 9016ms
+H7 ping H3:	10 packets transmitted, 10 received, 0% packet loss, time 9018ms
+H7 ping H4:	10 packets transmitted, 9 received, 10% packet loss, time 9016ms
+H7 ping H5:	10 packets transmitted, 7 received, 30% packet loss, time 9010ms
+H7 ping H6:	10 packets transmitted, 9 received, 10% packet loss, time 9016ms
+H7 ping H8:	10 packets transmitted, 10 received, 0% packet loss, time 9001ms
+
+H8 ping H1:	10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+H8 ping H2:	10 packets transmitted, 9 received, 10% packet loss, time 9022ms
+H8 ping H3:	10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+H8 ping H4:	10 packets transmitted, 8 received, 20% packet loss, time 9022ms
+H8 ping H5:	10 packets transmitted, 9 received, 10% packet loss, time 9015ms
+H8 ping H6:	10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+H8 ping H7:	10 packets transmitted, 10 received, 0% packet loss, time 9004ms

@@ -1,0 +1,1444 @@
+Now! h1 ping h2
+*** h2 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 58008 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37560 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.19 Mbits/sec   0.313 ms 13622/37558 (36%)
+[  3]  0.0-10.4 sec  26 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h3
+*** h3 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 53310 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37578 datagrams
+[  3] Server Report:
+[  3]  0.0-10.3 sec  16.9 MBytes  13.8 Mbits/sec   0.152 ms 2171/37577 (5.8%)
+[  3]  0.0-10.3 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h4
+*** h4 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 51523 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37585 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.3 MBytes  9.11 Mbits/sec   0.438 ms 13890/37583 (37%)
+[  3]  0.0-10.4 sec  77 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h5
+*** h5 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h1 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 38347 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37586 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.3 MBytes  9.11 Mbits/sec   0.285 ms 13904/37585 (37%)
+[  3]  0.0-10.4 sec  31 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h6
+*** h6 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 59058 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37578 datagrams
+[  3] Server Report:
+[  3]  0.0-10.3 sec  16.7 MBytes  13.7 Mbits/sec   0.353 ms 2561/37577 (6.8%)
+[  3]  0.0-10.3 sec  40 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h7
+*** h7 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 42155 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37580 datagrams
+[  3] Server Report:
+[  3]  0.0-10.2 sec  16.3 MBytes  13.4 Mbits/sec   0.237 ms 3369/37579 (9%)
+[  3]  0.0-10.2 sec  9 datagrams received out-of-order
+
+
+
+
+Now! h1 ping h8
+*** h8 : ('iperf -u -s &',)
+*** h1 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 40205 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37590 datagrams
+[  3] Server Report:
+[  3]  0.0- 9.2 sec  14.7 MBytes  13.3 Mbits/sec   0.388 ms 6747/37589 (18%)
+[  3]  0.0- 9.2 sec  5 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h1
+*** h1 : ('iperf -u -s &',)
+*** h2 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 58008
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.4 MBytes  9.19 Mbits/sec   0.314 ms 13622/37558 (36%)
+[  3]  0.0-10.4 sec  26 datagrams received out-of-order
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 59344 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37589 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.20 Mbits/sec   0.263 ms 13624/37587 (36%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h3
+*** h3 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.1 port 53310
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.3 sec  16.9 MBytes  13.8 Mbits/sec   0.152 ms 2171/37577 (5.8%)
+[  3]  0.0-10.3 sec  1 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 38866 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37582 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.2 MBytes  9.02 Mbits/sec   0.335 ms 14123/37580 (38%)
+[  3]  0.0-10.4 sec  46 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h4
+*** h4 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.1 port 51523
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.3 MBytes  9.11 Mbits/sec   0.439 ms 13890/37583 (37%)
+[  3]  0.0-10.4 sec  77 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 47859 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37580 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.049 ms  392/37579 (1%)
+[  3]  0.0-10.0 sec  28 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h5
+*** h5 : ('iperf -u -s &',)
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.1 port 38347
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.3 MBytes  9.11 Mbits/sec   0.286 ms 13904/37585 (37%)
+[  3]  0.0-10.4 sec  31 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 38635 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37591 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.018 ms  423/37590 (1.1%)
+[  3]  0.0-10.0 sec  30 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h6
+*** h6 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.1 port 59058
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.3 sec  16.7 MBytes  13.7 Mbits/sec   0.353 ms 2561/37577 (6.8%)
+[  3]  0.0-10.3 sec  40 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 36080 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37587 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.1 MBytes  8.93 Mbits/sec   0.447 ms 14347/37585 (38%)
+[  3]  0.0-10.4 sec  55 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h7
+*** h7 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.1 port 42155
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.2 sec  16.3 MBytes  13.4 Mbits/sec   0.237 ms 3369/37579 (9%)
+[  3]  0.0-10.2 sec  9 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 38935 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37585 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.73 Mbits/sec   0.497 ms 14908/37584 (40%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h2 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.1 port 40205
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 9.2 sec  14.7 MBytes  13.3 Mbits/sec   0.389 ms 6747/37589 (18%)
+[  3]  0.0- 9.2 sec  5 datagrams received out-of-order
+read failed: Connection refused
+*** h2 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 40660 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37579 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.76 Mbits/sec   0.502 ms 14845/37578 (40%)
+[  3]  0.0-10.4 sec  52 datagrams received out-of-order
+
+
+
+
+Now! h3 ping h1
+*** h1 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.2 port 59344
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.4 MBytes  9.20 Mbits/sec   0.263 ms 13624/37587 (36%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+read failed: Connection refused
+*** h3 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.2 port 38866
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.2 MBytes  9.02 Mbits/sec   0.336 ms 14123/37580 (38%)
+[  3]  0.0-10.4 sec  46 datagrams received out-of-order
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 37374 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37435 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h3 ping h2
+*** h2 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h3 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 36131 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec
+[  3] Sent 37302 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h3 ping h4
+*** h4 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.2 port 47859
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.049 ms  392/37579 (1%)
+[  3]  0.0-10.0 sec  28 datagrams received out-of-order
+*** h3 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 58492 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37568 datagrams
+[  3] Server Report:
+[  3]  0.0- 8.7 sec  9.48 MBytes  9.12 Mbits/sec   0.407 ms 17691/37567 (47%)
+[  3]  0.0- 8.7 sec  20 datagrams received out-of-order
+
+
+
+
+Now! h3 ping h5
+*** h5 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.2 port 38635
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.019 ms  423/37590 (1.1%)
+[  3]  0.0-10.0 sec  30 datagrams received out-of-order
+*** h3 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 35418 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37586 datagrams
+[  3] Server Report:
+[  3]  0.0-10.7 sec  11.6 MBytes  9.11 Mbits/sec   0.578 ms 13273/37585 (35%)
+[  3]  0.0-10.7 sec  34 datagrams received out-of-order
+
+
+
+
+Now! h3 ping h6
+*** h6 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.2 port 36080
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.1 MBytes  8.93 Mbits/sec   0.447 ms 14347/37585 (38%)
+[  3]  0.0-10.4 sec  55 datagrams received out-of-order
+*** h3 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 41973 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37582 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec   0.131 ms  342/37581 (0.91%)
+[  3]  0.0-10.0 sec  12 datagrams received out-of-order
+
+
+
+
+Now! h3 ping h7
+*** h7 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.2 port 38935
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.73 Mbits/sec   0.498 ms 14908/37584 (40%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+*** h3 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 57174 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37584 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.191 ms 1139/37583 (3%)
+[  3]  0.0-10.0 sec  31 datagrams received out-of-order
+
+
+
+
+Now! h3 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.2 port 40660
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.76 Mbits/sec   0.502 ms 14845/37578 (40%)
+[  3]  0.0-10.4 sec  52 datagrams received out-of-order
+*** h3 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 42496 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37575 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.092 ms 1145/37574 (3%)
+[  3]  0.0-10.0 sec  40 datagrams received out-of-order
+
+
+
+
+Now! h4 ping h1
+*** h1 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.3 port 37374
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h4 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.3 port 58492
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 8.7 sec  9.48 MBytes  9.12 Mbits/sec   0.407 ms 17691/37567 (47%)
+[  3]  0.0- 8.7 sec  20 datagrams received out-of-order
+read failed: Connection refused
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 47521 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37535 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.19 Mbits/sec   0.277 ms 13579/37534 (36%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h4 ping h2
+*** h2 : ('iperf -u -s &',)
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.3 port 36131
+*** h4 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 57270 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37423 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h4 ping h3
+*** h3 : ('iperf -u -s &',)
+*** h4 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 49807 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37419 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h4 ping h5
+*** h5 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.3 port 35418
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.7 sec  11.6 MBytes  9.11 Mbits/sec   0.578 ms 13273/37585 (35%)
+[  3]  0.0-10.7 sec  34 datagrams received out-of-order
+read failed: Connection refused
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h4 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 57761 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37556 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.005 ms   64/37555 (0.17%)
+[  3]  0.0-10.0 sec  65 datagrams received out-of-order
+
+
+
+
+Now! h4 ping h6
+*** h6 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.3 port 41973
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec   0.131 ms  342/37581 (0.91%)
+[  3]  0.0-10.0 sec  12 datagrams received out-of-order
+*** h4 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 45242 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37588 datagrams
+[  3] Server Report:
+[  3]  0.0- 9.4 sec  10.0 MBytes  8.93 Mbits/sec   0.555 ms 16598/37587 (44%)
+[  3]  0.0- 9.4 sec  48 datagrams received out-of-order
+
+
+
+
+Now! h4 ping h7
+*** h7 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.3 port 57174
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.191 ms 1139/37583 (3%)
+[  3]  0.0-10.0 sec  31 datagrams received out-of-order
+*** h4 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 49339 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37585 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.72 Mbits/sec   0.668 ms 14958/37583 (40%)
+[  3]  0.0-10.4 sec  38 datagrams received out-of-order
+
+
+
+
+Now! h4 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.3 port 42496
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.4 MBytes  14.6 Mbits/sec   0.092 ms 1145/37574 (3%)
+[  3]  0.0-10.0 sec  40 datagrams received out-of-order
+*** h4 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 34252 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37579 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.75 Mbits/sec   0.398 ms 14903/37578 (40%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h1
+*** h1 : ('iperf -u -s &',)
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.4 port 47521
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.4 MBytes  9.19 Mbits/sec   0.277 ms 13579/37534 (36%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+*** h5 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.4 port 57761
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.005 ms   64/37555 (0.17%)
+[  3]  0.0-10.0 sec  65 datagrams received out-of-order
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 52774 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37408 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.4 MBytes  9.17 Mbits/sec   0.260 ms 13498/37406 (36%)
+[  3]  0.0-10.4 sec  18 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h2
+*** h2 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.4 port 57270
+*** h5 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 57059 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37584 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.028 ms  369/37583 (0.98%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h3
+*** h3 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.4 port 49807
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.5 sec  6.68 MBytes  5.34 Mbits/sec  980.100 ms 23387/37391 (63%)
+[  3]  0.0-10.5 sec  2484 datagrams received out-of-order
+read failed: Connection refused
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h5 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 37090 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37576 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  11.2 MBytes  9.02 Mbits/sec   0.532 ms 14063/37575 (37%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h4
+*** h4 : ('iperf -u -s &',)
+*** h5 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 44419 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37556 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.007 ms    0/37555 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h6
+*** h6 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.4 port 45242
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 9.4 sec  10.0 MBytes  8.93 Mbits/sec   0.555 ms 16598/37587 (44%)
+[  3]  0.0- 9.4 sec  48 datagrams received out-of-order
+*** h5 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 58097 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37546 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.73 Mbits/sec   0.585 ms 14853/37545 (40%)
+[  3]  0.0-10.4 sec  33 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h7
+*** h7 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.4 port 49339
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.72 Mbits/sec   0.669 ms 14958/37583 (40%)
+[  3]  0.0-10.4 sec  38 datagrams received out-of-order
+*** h5 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 33465 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37592 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.74 Mbits/sec   0.451 ms 14959/37591 (40%)
+[  3]  0.0-10.4 sec  28 datagrams received out-of-order
+
+
+
+
+Now! h5 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.4 port 34252
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.75 Mbits/sec   0.398 ms 14903/37578 (40%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+read failed: Connection refused
+*** h5 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 41380 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37592 datagrams
+[  3] Server Report:
+[  3]  0.0-10.4 sec  10.8 MBytes  8.77 Mbits/sec   0.378 ms 14843/37591 (39%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+
+
+
+
+Now! h6 ping h1
+*** h1 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.5 port 52774
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.4 MBytes  9.17 Mbits/sec   0.261 ms 13498/37406 (36%)
+[  3]  0.0-10.4 sec  18 datagrams received out-of-order
+read failed: Connection refused
+*** h6 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.5 port 58097
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.73 Mbits/sec   0.586 ms 14853/37545 (40%)
+[  3]  0.0-10.4 sec  33 datagrams received out-of-order
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 59856 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37426 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h6 ping h2
+*** h2 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.5 port 57059
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec   0.029 ms  369/37583 (0.98%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+*** h6 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 37520 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37400 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h6 ping h3
+*** h3 : ('iperf -u -s &',)
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.5 port 37090
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  11.2 MBytes  9.02 Mbits/sec   0.533 ms 14063/37575 (37%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+read failed: Connection refused
+*** h6 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 60919 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37391 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h6 ping h4
+*** h4 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.5 port 44419
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec   0.008 ms    0/37555 (0%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+*** h6 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 51658 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37387 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h6 ping h5
+*** h5 : ('iperf -u -s &',)
+*** h6 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 56412 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37395 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h6 ping h7
+*** h7 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.5 port 33465
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.74 Mbits/sec   0.452 ms 14959/37591 (40%)
+[  3]  0.0-10.4 sec  28 datagrams received out-of-order
+read failed: Connection refused
+*** h6 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 49930 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37548 datagrams
+[  3] Server Report:
+[  3]  0.0- 6.9 sec  12.2 MBytes  14.8 Mbits/sec   0.119 ms 12055/37547 (32%)
+[  3]  0.0- 6.9 sec  21 datagrams received out-of-order
+
+
+
+
+Now! h6 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.5 port 41380
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.4 sec  10.8 MBytes  8.77 Mbits/sec   0.378 ms 14843/37591 (39%)
+[  3]  0.0-10.4 sec  1 datagrams received out-of-order
+read failed: Connection refused
+*** h6 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 53791 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37593 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.6 MBytes  14.8 Mbits/sec   0.154 ms  773/37592 (2.1%)
+[  3]  0.0-10.0 sec  21 datagrams received out-of-order
+
+
+
+
+Now! h7 ping h1
+*** h1 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.6 port 59856
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h7 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 5001 connected with 10.0.0.6 port 49930
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 6.9 sec  12.2 MBytes  14.8 Mbits/sec   0.120 ms 12055/37547 (32%)
+[  3]  0.0- 6.9 sec  21 datagrams received out-of-order
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 43788 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37414 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h2
+*** h2 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.6 port 37520
+*** h7 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 42510 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37379 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h3
+*** h3 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.6 port 60919
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+*** h7 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 52406 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37382 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h4
+*** h4 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.6 port 51658
+*** h7 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 51946 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec
+[  3] Sent 37362 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h5
+*** h5 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.6 port 56412
+*** h7 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 48612 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37388 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h6
+*** h6 : ('iperf -u -s &',)
+*** h7 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 35091 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec
+[  3] Sent 37372 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h7 ping h8
+*** h8 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.6 port 53791
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0-10.0 sec  17.6 MBytes  14.8 Mbits/sec   0.154 ms  773/37592 (2.1%)
+[  3]  0.0-10.0 sec  21 datagrams received out-of-order
+*** h7 : ('iperf -u -c', '10.0.0.8', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.8, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.7 port 55805 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37569 datagrams
+[  3] Server Report:
+[  3]  0.0- 9.2 sec  16.6 MBytes  15.1 Mbits/sec   0.004 ms 2800/37569 (7.5%)
+[  3]  0.0- 9.2 sec  51 datagrams received out-of-order
+
+
+
+
+Now! h8 ping h1
+*** h1 : ('iperf -u -s &',)
+[  3] local 10.0.0.1 port 5001 connected with 10.0.0.7 port 43788
+*** h8 : ('iperf -u -c', '10.0.0.1', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 5001 connected with 10.0.0.7 port 55805
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 9.2 sec  16.6 MBytes  15.1 Mbits/sec   0.004 ms 2800/37569 (7.5%)
+[  3]  0.0- 9.2 sec  51 datagrams received out-of-order
+------------------------------------------------------------
+Client connecting to 10.0.0.1, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 49133 connected with 10.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.7 MBytes  14.9 Mbits/sec
+[  3] Sent 37170 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h8 ping h2
+*** h2 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.2 port 5001 connected with 10.0.0.7 port 42510
+*** h8 : ('iperf -u -c', '10.0.0.2', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.2, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 42370 connected with 10.0.0.2 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  14.9 Mbits/sec
+[  3] Sent 37334 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h8 ping h3
+*** h3 : ('iperf -u -s &',)
+[  3] local 10.0.0.3 port 5001 connected with 10.0.0.7 port 52406
+*** h8 : ('iperf -u -c', '10.0.0.3', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.3, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 47075 connected with 10.0.0.3 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37396 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h8 ping h4
+*** h4 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.4 port 5001 connected with 10.0.0.7 port 51946
+*** h8 : ('iperf -u -c', '10.0.0.4', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.4, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 50446 connected with 10.0.0.4 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37474 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
+Now! h8 ping h5
+*** h5 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 5001 connected with 10.0.0.7 port 48612
+*** h8 : ('iperf -u -c', '10.0.0.5', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.5, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 38188 connected with 10.0.0.5 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37581 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  10.9 MBytes  9.10 Mbits/sec   0.464 ms 14749/37580 (39%)
+[  3]  0.0-10.0 sec  18 datagrams received out-of-order
+
+
+
+
+Now! h8 ping h6
+*** h6 : ('iperf -u -s &',)
+------------------------------------------------------------
+Server listening on UDP port 5001
+Receiving 1470 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.6 port 5001 connected with 10.0.0.7 port 35091
+[ ID] Interval       Transfer     Bandwidth        Jitter   Lost/Total Datagrams
+[  3]  0.0- 6.4 sec   910 KBytes  1.17 Mbits/sec  146.232 ms 35476/37339 (95%)
+[  3]  0.0- 6.4 sec  18 datagrams received out-of-order
+read failed: Connection refused
+*** h8 : ('iperf -u -c', '10.0.0.6', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.6, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 34220 connected with 10.0.0.6 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.9 MBytes  15.0 Mbits/sec
+[  3] Sent 37576 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  17.5 MBytes  14.8 Mbits/sec   0.151 ms  815/37575 (2.2%)
+[  3]  0.0-10.0 sec  12 datagrams received out-of-order
+
+
+
+
+Now! h8 ping h7
+*** h7 : ('iperf -u -s &',)
+*** h8 : ('iperf -u -c', '10.0.0.7', ' -b 15000000 -l 500')
+------------------------------------------------------------
+Client connecting to 10.0.0.7, UDP port 5001
+Sending 500 byte datagrams
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.8 port 57593 connected with 10.0.0.7 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  17.8 MBytes  15.0 Mbits/sec
+[  3] Sent 37401 datagrams
+[  3] WARNING: did not receive ack of last datagram after 10 tries.
+
+
+
+
